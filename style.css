@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700;900&display=swap');
+
+.body {
+    display: flex;
+    /* background-color: grey; */
+    margin-top: 7rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    height: 25rem;
+    /* border: 2px solid black;
+    border-radius: 10px; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.sedans {
+    background-color: orange;
+    color: white;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.sedans img {
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+}
+.sedans h1 {
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+}
+.sedans p {
+    padding-top: 0.6rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    text-align: justify;
+    word-wrap: normal;
+}
+.sedans .se {
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+    border-radius: 18px;
+    color: orange;
+    border: white;
+    text-decoration: none;
+}
+.suvs {
+    background-color: #016972;
+    color: white;
+}
+.suvs img {
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+}
+.suvs h1 {
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+}
+.suvs p {
+    padding-top: 0.6rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    text-align: justify;
+    word-wrap: normal;
+}
+.suvs .su {
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+    border-radius: 18px;
+    color: #016972;
+    border: white;
+    text-decoration: none;
+}
+.luxury {
+    background-color: #00403f;
+    color: white;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.luxury img {
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+}
+.luxury h1 {
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+}
+.luxury p {
+    padding-top: 0.6rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    text-align: justify;
+    word-wrap: normal;
+}
+.luxury .lu {
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+    border-radius: 18px;
+    color: #00403f;
+    border: white;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-bottom: 8rem;
+        height: 98%;
+    }
+    .sedans {
+        background-color: orange;
+        color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    .luxury {
+        background-color: #00403f;
+        color: white;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    .sedans .se {
+        margin-top: 2.5rem;
+        margin-left: 2.5rem;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        border-radius: 18px;
+        color: orange;
+        border: white;
+        text-decoration: none;
+    }
+    .suvs .su {
+        margin-top: 2.5rem;
+        margin-left: 2.5rem;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        border-radius: 18px;
+        color: #016972;
+        border: white;
+        text-decoration: none;
+    }
+    .luxury .lu {
+        margin-top: 2.5sssssrem;
+        margin-left: 2.5rem;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        border-radius: 18px;
+        color: #00403f;
+        border: white;
+        text-decoration: none;
+    }
+}
