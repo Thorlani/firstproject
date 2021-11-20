@@ -41,6 +41,10 @@
     border: white;
     text-decoration: none;
 }
+.sedans .se a {
+    text-decoration: none;
+    color: orange;
+}
 .suvs {
     background-color: #016972;
     color: white;
@@ -68,6 +72,10 @@
     color: #016972;
     border: white;
     text-decoration: none;
+}
+.suvs .su a {
+    text-decoration: none;
+    color: #016972;
 }
 .luxury {
     background-color: #00403f;
@@ -98,6 +106,10 @@
     color: #00403f;
     border: white;
     text-decoration: none;
+}
+.luxury .lu a {
+    text-decoration: none;
+    color: #00403f;
 }
 
 @media (max-width: 600px) {
@@ -133,6 +145,10 @@
         border: white;
         text-decoration: none;
     }
+    .sedans .se a {
+    text-decoration: none;
+    color: orange;
+    }
     .suvs .su {
         margin-top: 2.5rem;
         margin-left: 2.5rem;
@@ -142,6 +158,10 @@
         border: white;
         text-decoration: none;
     }
+    .suvs .su a {
+    text-decoration: none;
+    color: #016972;
+    }
     .luxury .lu {
         margin-top: 2.5sssssrem;
         margin-left: 2.5rem;
@@ -150,5 +170,9 @@
         color: #00403f;
         border: white;
         text-decoration: none;
+    }
+    .luxury .lu a {
+    text-decoration: none;
+    color: #00403f;
     }
 }
