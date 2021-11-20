@@ -38,7 +38,7 @@
     word-wrap: normal;
 }
 .sedans .se {
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-left: 2.5rem;
     padding: 0.7rem 0.7rem 0.7rem 0.7rem;
     border-radius: 18px;
@@ -70,7 +70,7 @@
     word-wrap: normal;
 }
 .suvs .su {
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-left: 2.5rem;
     padding: 0.7rem 0.7rem 0.7rem 0.7rem;
     border-radius: 18px;
@@ -104,7 +104,7 @@
     word-wrap: normal;
 }
 .luxury .lu {
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-left: 2.5rem;
     padding: 0.7rem 0.7rem 0.7rem 0.7rem;
     border-radius: 18px;
@@ -116,9 +116,12 @@
     text-decoration: none;
     color: #00403f;
 }
-.attribution { font-size: 15px; text-align: center; 
+.attribution { 
+    font-size: 15px; text-align: center;
+    margin-top: 2rem;
 }
-.attribution a { color: hsl(228, 45%, 44%); 
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
 
 @media (max-width: 600px) {
@@ -172,7 +175,7 @@
     color: #016972;
     }
     .luxury .lu {
-        margin-top: 2.5sssssrem;
+        margin-top: 2.5rem;
         margin-left: 2.5rem;
         padding: 0.5rem 0.5rem 0.5rem 0.5rem;
         border-radius: 18px;
