@@ -11,6 +11,11 @@
     border-radius: 10px; */
     font-family: 'Source Sans Pro', sans-serif;
 }
+.thor {
+    text-align: center;
+    font-size: large;
+    color: #016972
+}
 .sedans {
     background-color: orange;
     color: white;
