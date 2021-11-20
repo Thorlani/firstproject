@@ -11,11 +11,6 @@
     border-radius: 10px; */
     font-family: 'Source Sans Pro', sans-serif;
 }
-.thor p {
-    text-align: center;
-    font-size: 500px;
-    color: #016972
-}
 .sedans {
     background-color: orange;
     color: white;
@@ -117,7 +112,7 @@
     color: #00403f;
 }
 .attribution { 
-    font-size: 15px; text-align: center;
+    font-size: 11px; text-align: center;
     margin-top: 2rem;
 }
 .attribution a { 
